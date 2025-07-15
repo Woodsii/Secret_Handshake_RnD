@@ -14,5 +14,11 @@ export const fetchMarkdownPosts = async () => {
 		})
 	);
 
+	console.log(allPosts);
+
 	return allPosts;
 };
+
+export const getOnePost = async (path: string) => {
+	const allPosts = await fetchMarkdownPosts();
+}

@@ -1,6 +1,6 @@
-import { fetchMarkdownPosts } from '$lib/utils/index.js';
+import { fetchMarkdownPosts } from '$lib/utils/index';
 
-export const load = async ({ params }) => {
+export const load = async ({ params }: {params: any}) => {
   const { slug } = params;
   const post = await import(`../${slug}.md`);
   
