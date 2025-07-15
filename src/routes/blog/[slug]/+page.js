@@ -1,13 +1,11 @@
 import { fetchMarkdownPosts } from '$lib/utils/index.js';
 
-export const load = async () => {
-  const posts = await fetchMarkdownPosts();
-
-  const sortedPosts = posts.sort((a, b) =>
-    new Date(b.meta.date) - new Date(a.meta.date)
-  );
-
+export const load = async ({ params }) => {
+  const { slug } = params;
+  const post = await import(`../${slug}.md`);
+  
   return {
-    posts: sortedPosts
+    content: post.default,
+    meta: post.metadata
   };
 };

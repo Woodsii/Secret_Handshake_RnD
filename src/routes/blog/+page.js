@@ -1,3 +1,5 @@
+// routes/blog 
+
 import { fetchMarkdownPosts } from '$lib/utils/index.js';
 
 export const load = async () => {
