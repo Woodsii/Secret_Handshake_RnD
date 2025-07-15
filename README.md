@@ -4,4 +4,4 @@ This is an ongoing project to develop a more professional, clean and modern webs
 
 ### Accessing
 
-Currently, I am not hosting this website as it is in development. Eventually you will be able to find it at <a href="secrethandshakernd.com">secrethandshakernd.com</a>
+Currently, I am not hosting this website as it is in development. Eventually you will be able to find it at <a href="https://secrethandshakernd.com">secrethandshakernd.com</a>
