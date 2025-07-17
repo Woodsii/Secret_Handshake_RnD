@@ -20,3 +20,22 @@
 		</li>
 	{/each}
 </ul>
+
+<style> 
+	a:link {
+		color: #d8b4f8; 
+	}
+
+	a:visited {
+  		color: #f3e4ff;
+	}
+
+	a:hover {
+  		color: #f3e4ff;
+		text-decoration: bold;
+	}
+	
+	a:active {
+		color: #d8b4f8; 
+	}
+</style>

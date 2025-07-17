@@ -21,6 +21,9 @@
 		min-height: 100vh;
 		display: flex;
 		flex-direction: column;
+		background-color: #121212; 
+        color: #d8b4f8; 
+		font-family: "Figtree";
 	}
 
 	main {

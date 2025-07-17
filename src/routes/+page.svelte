@@ -1,22 +1,3 @@
-<style>
-  .image-container {
-    width: 300px; /* Set the desired width of your container */
-    height: 200px; /* Set the desired height of your container */
-    overflow: hidden; /* Hide any parts of the image that extend beyond the container */
-  }
-
-  .image-container img {
-    width: 100%; /* Make the image take up 100% of the container's width */
-    height: 100%; /* Make the image take up 100% of the container's height */
-    object-fit: cover; /* Resize the image to cover the entire container while maintaining its aspect ratio */
-  }
-</style>
-
-
-<div class="image-container">
-  <img src="/images/redbud.jpg"  alt="An eastern redbud tree in bloom on an overcast day">
-</div>
-
 <h1>Secret Handshake RnD</h1>
 
 <p>
@@ -38,3 +19,4 @@ Mauris faucibus id felis sit amet eleifend. Sed velit augue, porta sed purus id,
 <p>
 In feugiat tristique nulla eget pulvinar. Nullam et euismod nulla. Suspendisse faucibus velit a sollicitudin mattis. Praesent non lorem sit amet metus posuere hendrerit. Mauris purus velit, venenatis vitae urna at, lobortis pretium mi. Nullam mattis ullamcorper magna, sed volutpat augue consequat id. Etiam eu mi a arcu gravida auctor vulputate vel sem. Curabitur non convallis lorem. Aenean vel libero est. Etiam nulla tellus, egestas semper tellus vitae, accumsan suscipit augue. Sed commodo augue in lorem placerat cursus.
 </p>
+
