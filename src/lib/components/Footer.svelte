@@ -33,13 +33,23 @@
 
 
 <style>
-    ul.nav-list li {
-        display: inline;
+    ul.nav-list {
+        display: inline-block;
+        text-align: left; /* Optional, for left-aligned list items within the centered ul */
+        padding: 0; /* Remove default padding for better centering */
         list-style: none;
+    }
+
+    ul.nav-list li {
+        display: inline; 
     }
 
     .link-icon {
         filter: invert(1);
+    }
+
+    .footer-nav {
+        text-align: center;
     }
 
     .footer {
