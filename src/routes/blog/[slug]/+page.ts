@@ -1,11 +1,11 @@
-import { fetchMarkdownPosts } from '$lib/utils/index';
+import { getOnePost } from '$lib/utils/index';
 
 export const load = async ({ params }: {params: any}) => {
   const { slug } = params;
   const post = await import(`../${slug}.md`);
-  
+
   return {
-    content: post.default,
+    component: post.default,
     meta: post.metadata
   };
 };

@@ -4,12 +4,26 @@
 	import '$lib/styles/style.css';
 </script>
 
-<Header />
+<div class="page-wrapper"> 
+	<Header />
 
-<main>
-	<slot></slot>
-</main>
+	<main>
+		<slot></slot>
+	</main>
 
-<footer>
-	<Footer />
-</footer>
+	<footer>
+		<Footer />
+	</footer>
+</div>
+
+<style>
+	.page-wrapper {
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+	}
+
+	main {
+		flex: 1;
+	}
+</style>

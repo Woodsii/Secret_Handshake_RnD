@@ -19,6 +19,14 @@ export const fetchMarkdownPosts = async () => {
 	return allPosts;
 };
 
-export const getOnePost = async (path: string) => {
+export const getOnePost = async (filePath: string) => {
 	const allPosts = await fetchMarkdownPosts();
+
+	for (let post of allPosts) {
+		if (post.path == filePath){
+			return post
+		}
+	}
+
+	return { path: "blog/not-found" }
 }
