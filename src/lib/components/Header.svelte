@@ -13,7 +13,8 @@
 <style>
 	header {
 		padding: 1rem;
-		background: lightskyblue;
+		background-color: #121212;
+        color: #d8b4f8;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
