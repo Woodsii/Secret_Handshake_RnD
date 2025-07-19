@@ -1,12 +1,15 @@
 <script>
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import AsciiHero from '$lib/components/AsciiHero.svelte';
 	import '$lib/styles/style.css';
 </script>
 
 <div class="page-wrapper"> 
 	<Header />
 
+	<AsciiHero />
+	
 	<main>
 		<slot></slot>
 	</main>
